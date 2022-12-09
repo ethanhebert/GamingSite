@@ -1,0 +1,25 @@
+Ethan Hebert
+10-21-22 - 0.5 hours - created files and setup basic formatting of a webpage (head), background and title
+10-22-22 - 0.5 hours - styling, fonts, setup the css grid gameboard to hold all the cases
+10-23-22 - 4.5 hours - setup case board and money board with all number values, ability to select and move cases based on round number, new game button
+10-24-22 - 2.0 hours - random money in each case, money class/objects, css for active/inactive money values, began gameflow/rounds, ability to open cases/see money
+10-25-22 - 2.5 hours - money value turns off once case is opened, setup more logic for gameflow and rounds, allowed keyboard input for 'ENTER', banker mode
+10-26-22 - 2.0 hours - finished most of banker mode, calculating banker's offer, deal or no deal buttons
+10-29-22 - 2.0 hours - refactored/organized code, reorganized webpage layout with divs, ability to select user case, glowing deal/no deal buttons
+10-30-22 - 4.0 hours - fixed small bugs in display, allowed all rounds til end of game, keep/swap case final round, landing page and local storage, pay to play
+11-01-22 - 0.5 hours - cost to play blinks whenever you do not have enough money to play
+11-02-22 - 2.0 hours - ability to win money and update wallet, customzied exit message based on your winnings/choices, game fully works to my knowledge
+11-06-22 - 2.0 hours - finalized landing page, linked to Bingo game, final checks/organizing files/uploading to beta accounts
+TOTAL    - 22.5 hours
+
+Karina Chang
+10-24-22 - 0.5 hours - created documents and files, basic outline
+10-26-22 - 0.5 hours - created bingo grid and title
+11-02-22 - 2.0 hours - made card array, got creat card working
+11-03-22 - 4.0 hours - created random numbers stored to array, cards to show after refresh, and clear cards
+11-04-22 - 6.0 hours - created balls, randomized balls, and got bingo to recognize row and collumn wins
+11-05-22 - 2.0 hours - got all wins working, made the balls not repeat and limited to 75
+11-06-22 - 4.0 hours - styling choices and minor bug fixes
+TOTAL    - 19.0 hours
+
+TOTAL ALL- 41.5 hours

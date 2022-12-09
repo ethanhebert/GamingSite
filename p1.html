@@ -1,0 +1,73 @@
+<!--
+Ethan Hebert and Karina Chang
+11-6-22
+CSC-499-002
+Fall 2022
+Project 1
+Ethan Hebert - All of Deal or No Deal, Majority of Landing Page
+Karina Chang - All of Bingo, Some of Landing Page
+-->
+
+<!-- LANDING PAGE -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Game Page" content="Landing Page for 2 games">
+        <title>Shady Shoals Gaming</title>
+
+        <!-- Link to CSS file -->
+        <link rel="stylesheet" type="text/css" href="../css/p1.css"/> 
+
+        <!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="../images/favicon.png"/> 
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Poller+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/spongebob-font-condensed" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!-- Header for page -->
+        <h1>Welcome to Shady Shoals Nursing Home Game Night!!!</h1>
+        
+        <!-- Link to Deal or No Deal -->
+        <div id="games">
+            <div class="centered-div">
+                <h1>Bingo</h1>
+                <a href="./bingo.html"><button id="bingo">Bingo</button></a>
+            </div>
+            <div class="centered-div">
+                <h1>Deal or No Deal</h1>
+                <a href="./deal.html"><button id="case">13</button></a>
+            </div>
+        </div>
+
+        <!-- Reset depleted money account -->
+        <div id="wallet">
+            <div id="user-money"><h2></h2></div>
+            <div><button id="reset-money" onclick="resetMoney()">Reset money ($100,000)</button></div>
+        </div>
+		<div class="footer">
+			<div class="footer-item" style="grid-area: 1/1/span 1/span 1;">Bingo</div>
+			<!-- Karina's contact info -->
+			<div class="footer-item" style="grid-area: 2/1/span 1/span 1;">Karina Chang</div>
+			<div class="footer-item" style="grid-area: 3/1/span 1/span 1;">kbc026@latech.edu</div>
+			<!-- Ethan's contact info -->
+			<div class="footer-item" style="grid-area: 1/2/span 1/span 1;">Deal or No Deal</div>
+			<div class="footer-item" style="grid-area: 2/2/span 1/span 1;">Ethan Hebert</div>
+			<div class="footer-item" style="grid-area: 3/2/span 1/span 1;">eah039@latech.edu </div>
+			<!-- Thank You message -->
+			<div class="footer-item" style="grid-area: 1/3/span 1/span 1;"><div class="highlight">Thanks for playing!</div></div>
+		</div>
+
+        <!-- Link to JS file -->
+        <script src="../js/p1.js"></script>
+    </body>
+</html>

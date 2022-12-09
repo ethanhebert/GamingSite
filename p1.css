@@ -1,0 +1,145 @@
+body {
+    animation: fade 5s linear 0s infinite alternate-reverse;
+    overflow-x: hidden;
+}
+
+@keyframes fade {
+    0% {
+        background-color: rgb(233, 238, 127);
+    }
+
+    50% {
+        background-color: rgb(48, 117, 170);
+    }
+
+    100% {
+        background-color: rgb(61, 199, 116);
+    }
+}
+
+/* title of page */
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Send Flowers', cursive;
+    font-size: 250%;
+    margin-bottom: 10px;
+}
+
+/* links for 2 games */
+#games {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.centered-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#case {
+    padding-top: 7px;
+    border-radius: 6px;
+    width: 250px;
+    height: 160px;
+	margin: 10px;
+
+    font-family: 'Poller One', cursive;
+    color: black;
+	font-size: 90px;
+    font-weight: bold;
+	text-align: center;
+    background: linear-gradient(rgb(240, 240, 240) 0% 7%, rgb(134, 134, 134) 7% 10%, rgb(240, 240, 240) 10% 17%, rgb(134, 134, 134) 17% 20%,
+    rgb(240, 240, 240) 20% 80%, rgb(134, 134, 134) 80% 83%, rgb(240, 240, 240) 83% 90%, rgb(134, 134, 134) 90% 93%, rgb(240, 240, 240) 93% 100%);
+}
+
+#case:hover {
+    font-family: 'Poller One', cursive;
+    color: white;
+    line-height: 54px;
+	font-size: 30px;
+    font-weight: bold;
+	text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid rgb(240, 240, 240);
+    background: linear-gradient(rgb(161, 15, 15) 0% 34%, black 34% 66%, rgb(161, 15, 15) 66% 100%);
+}
+
+#bingo {
+    padding-top: 7px;
+    border-radius: 6px;
+    width: 250px;
+    height: 160px;
+	margin: 10px;
+
+    font-family: 'SpongeBob Font Condensed', sans-serif;
+	color: #ffa600;
+    font-size: 65px;
+    font-weight: bold;
+	text-align: center;
+
+	background-image: url("https://pbs.twimg.com/ext_tw_video_thumb/1123600810913538048/pu/img/99_SbF05pUfSX3eN.jpg:large");
+    background-size: 250px 160px;
+}
+
+#bingo:hover {
+    border: 2px solid #ffa600;
+    text-shadow: -2px 2px 0 #000,
+				2px 2px 0 #000,
+				2px -2px 0 #000,
+				-2px -2px 0 #000;
+}
+
+/* user money and button to reset funds */
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Send Flowers', cursive;
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+
+#reset-money {
+    border-radius: 6px;
+    width: 160px;
+    height: 80px;
+	margin: 10px;
+    font-size: 20px;
+
+    background-color: rgba(255,255,255,0.3);
+}
+
+#reset-money:hover {
+    background-color: rgba(255,0,0,0.75);
+}
+
+#wallet {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	/* the footer is a grid to help organize the items into a correct order, it is easier to stack */
+	display: grid;
+	justify-content: space-between;
+	padding: 20px 30px 20px 30px;
+	margin: 10px -10px -10px -10px;
+	align-items: center;
+	font-style: oblique;
+}
+
+.footer-item{
+	margin: 5px;
+	text-align: center;
+}

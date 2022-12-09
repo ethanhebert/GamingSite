@@ -1,0 +1,263 @@
+body{
+	background-image: url("https://pbs.twimg.com/ext_tw_video_thumb/1123600810913538048/pu/img/99_SbF05pUfSX3eN.jpg:large");
+	background-size: cover;
+}
+
+.grid-container{
+	background-color: lavender;
+	border: solid;
+	margin: 20px;
+	/* height: 500px;  */
+	/* apply grids */
+	display: grid;
+	width: 1100px;
+	margin: auto;
+	margin-top: 10px;
+}
+.ball-container{
+	background-color: #484848;
+	border: solid;
+	margin: auto;
+	margin-top: 10px;
+	max-width: 1000px;
+	/* height: 500px;  */
+	/* apply grids */
+	display: flex;
+	flex-wrap: wrap;
+}
+.ball-item{
+	padding: 5px;
+}
+.grid-card{
+	background-color: gold;
+	border: solid;
+	margin: 20px;
+	height: 500px; 
+	/* apply grids */
+	display: grid;
+	max-width: 500px;
+	text-align: center;
+}
+
+.grid-item{
+	color: indigo;
+	background-color: white;
+	font-size: 25px;
+	margin: 10px;
+	/* text-align: center; */
+	padding-top: 10px;
+	line-height: 40px;
+	font-family: 'Open Sans', sans-serif;
+	width: 75px;
+	
+}
+.grid-title{
+	color: indigo;
+	font-size: 75px;
+	text-align: center;
+	margin: 10px;
+	line-height: 40px;
+	font-family: 'Work Sans', sans-serif;
+}
+.free-space{
+	background-image: url("https://www.propanekids.com/agsafety/assets/img/farm-bingo/red/free_space_star.png");
+	background-repeat: no-repeat;	
+	background-position: center;
+	background-size: contain;
+}
+.ball-item{
+	background: radial-gradient(circle at center, white 25%, red 50%, #eee 75%, #484848	75%);
+	margin: 5px;
+	padding: 5px;
+	font-family: 'Kanit', sans-serif;
+	/* background: yellow; */
+}
+
+
+
+input:checked + label{
+	color: yellow;
+	background-color: red;
+}
+label{
+	transform: translateY(50px);
+}
+.visually-hidden{
+	position: absolute;
+	/* left: -2px;  */
+	transform: translateX(-4px);
+	width:50px;
+	height:50px;
+	opacity: 0;
+}
+
+#title{
+	font-family: 'SpongeBob Font Condensed', sans-serif;
+	color: #ffa600;
+	font-size: 150%;
+	text-shadow: -2px 2px 0 #000,
+				2px 2px 0 #000,
+				2px -2px 0 #000,
+				-2px -2px 0 #000;
+}
+#episode{
+	font-size: 250%;
+	font-family: 'Brush Script MT', cursive;
+	text-shadow: 1px 1px white;
+}
+
+.money-amount{
+	font-family: 'Palatino', serif;
+	color: lime;
+	margin-left: 20%;
+	margin-right: 25%;
+	padding: 1%;
+	text-shadow: -1px 1px 0 #000,
+				1px 1px 0 #000,
+				1px -1px 0 #000,
+				-1px -1px 0 #000;
+	background-color: darkgreen;
+	width: 100px;
+	border: solid;
+}
+.error-message{
+	font-size: 20px;
+	color:white;
+	background:red;
+	width: 170px;
+	text-align: center;
+	margin-bottom: 2px;
+	animation: flashing 0.5s linear 0s 5 alternate;
+}
+
+@keyframes flashing{
+	0% {
+		color: black;
+		background-color: white;
+	}
+	100% {
+		color: white;
+		background-color: red
+	}
+}
+
+#inputBtn{
+	margin-top: 8px;
+	background-color: #00ffff;
+	font-size: 150%;
+	color: #000099;
+	margin-left: 8%;
+}
+#ballBtn{
+	background-color: #ff66ff;
+	font-size: 150%;
+	color: #660066;
+	margin-left: 8%;
+}
+#checkBtn{
+	background-color: #99ff99;
+	font-size: 150%;
+	color: #336600;
+	margin-left: 8%;
+}
+#deleteBtn{
+	background-color: white;
+	font-size: 150%;
+	color: black;
+	margin-left: 8%;
+}
+#newBtn{
+	background-color: white;
+	font-size: 150%;
+	color: black;
+	margin-left: 8%;
+}
+#returnBtn{
+	background-color: #ff66ff;
+	font-size: 150%;
+	color: #660066;
+	margin-left: 8%;
+}
+.buttons{
+	min-width:1200px;
+}
+#inputBtn:hover{
+	transform: scale(1.2);
+}
+#ballBtn:hover{
+	transform: scale(1.2);
+}
+#checkBtn:hover{
+	transform: scale(1.2);
+}
+#deleteBtn:hover{
+	transform: scale(1.2);
+}
+#newBtn:hover{
+	transform: scale(1.2);
+}
+#returnBtn:hover{
+	transform: scale(1.2);
+}
+#return{
+	background-color: black;
+	font-size: 125%;
+	color: white;
+	/* margin: 20%; */
+}
+#return:hover{
+	transform: scale(1.2);
+}
+
+
+#win-message{
+	font-family: 'SpongeBob Font Condensed', sans-serif;
+	font-size: 300%;
+	color: lime;
+	text-shadow: 1px 1px black;
+	margin: auto;
+	margin-top: 15%;
+	max-width: 400px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	animation: winscreen 2.5s ease-in-out 0s infinite alternate;
+}
+@keyframes winscreen {
+	
+	/* This animation is the sign that advertizes the sale*/
+	0% {
+		background: aliceblue;
+		border-color: red;
+		transform: rotate(25deg); 
+	}
+	40%{
+		background: lightblue;
+		transform: rotate(-25deg);  
+	}
+	70%{
+		background: aliceblue;
+		transform:rotate(0deg);
+		
+	}
+	100% {
+		background: lightgreen;
+		transform: skew(15deg);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+<!-- Project 1 - Bingo -->
+<!DOCTYPE html> 
+
+<html> 
+	<!-- Inside head tags contain header information for the webpage -->
+	<head>
+		
+		<!-- meta means data about the document -->
+		<meta charset="UTF-8">
+		<meta name="bingo" content="a bingo card game">
+		
+		<!-- This is linking a font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans:wght@600&family=Work+Sans:wght@500&display=swap" rel="stylesheet">		
+		<link href="https://fonts.cdnfonts.com/css/spongebob-font-condensed" rel="stylesheet">
+                
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="../images/favicon.png"/>
+		
+		<!-- link tag connects files together -->
+		<link rel="stylesheet" type="text/css" href="../css/bingo.css"/>
+		
+		
+		<!-- Title tag changes the title in the web browser tab -->
+		<title>Bingo</title>
+		
+			
+	</head>
+	
+	<!-- Inside body tags contain the content of the webpage -->
+	<body id="body">
+	
+		<span id="title">Welcome to Bingo:</span>
+		<span id="episode">Senior Night</span>
+		<span class="money-amount" id="moneys"></span>
+		<span class="return-message" id="return">
+			<button onclick="window.location='./p1.html';" id="return"> Landing Page </button>
+		</span>
+		<div class="error-message" id="error"></div>
+		<div class="win-message" id="win"></div>
+		<div class="buttons">
+			<button id="inputBtn"> Buy Card ($1000) </button>
+			<button id="ballBtn"> Buy Ball ($150)</button>
+			<button id="checkBtn"> Check Cards ($1000)</button>
+			<button id="deleteBtn"> New Game </button>
+		</div>
+
+		<div class="ball-container" id="balls"></div>
+
+		<div class="grid-container" id="cards">
+			<div class="grid-card" id="grid1" style="grid-area: 1/1/span 1/span 1;"></div>
+			<div class="grid-card" id="grid2" style="grid-area: 1/2/span 1/span 1;"></div>
+			<!-- <div class="grid-card" id="grid3" style="grid-area: 2/1/span 1/span 1;"></div>
+			<div class="grid-card" id="grid4" style="grid-area: 2/2/span 1/span 1;"></div>
+	 -->	</div>
+		
+
+		<script src="../js/bingo.js"></script>
+		
+	</body>
+	
+	
+
+</html>
+
+	

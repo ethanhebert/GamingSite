@@ -1,0 +1,45 @@
+<!-- Deal or No Deal -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Deal or No Deal" content="JavaScript game of Deal or No Deal using CSS Grid">
+        <title>Deal or No Deal</title>
+
+        <!-- Link to CSS file -->
+        <link rel="stylesheet" type="text/css" href="../css/deal.css"/> 
+
+        <!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="../images/favicon.png"/> 
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Poller+One&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Head of page -->
+        <div id="header"></div>
+
+        <div id="grids">
+            <!-- The Gameboard Grid, selected cases grid, and instructions panel - loaded in JS -->
+            <div id="cases-container">
+                <div id="nonselected-cases"></div>
+                <div id="selected-cases"></div>
+                <div id="instructions">
+                    <h1 class="intro-instructions">How to play: Click on cases to select/open them. Press any key (denoted by ...) to proceed in the game.</h1>
+                </div>
+            </div>
+
+            <!-- The Money Value Board and the user case- loaded in JS -->
+            <div id="money-and-case">
+                <div id="money-container"></div>
+                <div id="user-case"></div>
+            </div>
+        </div>
+
+        <!-- Link to JS file -->
+        <script src="../js/deal.js"></script>
+    </body>
+</html>
